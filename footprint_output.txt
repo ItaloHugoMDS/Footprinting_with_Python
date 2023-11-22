@@ -1,0 +1,216 @@
+
+
+**********************************
+* https://google.com - Footprint *
+**********************************
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+Date: 
+	Wed, 22 Nov 2023 12:53:59 GMT
+
+Expires: 
+	-1
+
+Cache-Control: 
+	private, max-age=0
+
+Content-Type: 
+	text/html; charset=ISO-8859-1
+
+Content-Security-Policy-Report-Only: 
+	object-src 'none';base-uri 'self';script-src 'nonce-4WiY7p45AnqTGJhDfvsuwA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+
+P3P: 
+	CP="This is not a P3P policy! See g.co/p3phelp for more info."
+
+Content-Encoding: 
+	gzip
+
+Server: 
+	gws
+
+X-XSS-Protection: 
+	0
+
+X-Frame-Options: 
+	SAMEORIGIN
+
+Set-Cookie: 
+	1P_JAR=2023-11-22-12; expires=Fri, 22-Dec-2023 12:53:59 GMT; path=/; domain=.google.com; Secure, AEC=Ackid1QgnbrhxKXkoBR5OwJf0w_P4WuA8IzQOIu6cE-gaLK3HRvkb-hlgQ; expires=Mon, 20-May-2024 12:53:59 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=511=dIJSMa424Qb0e1n42MLJRhVmxdkAH3jmVY7OAu_UPcpoyIJQUic3KKOyQoh0NytBtBYMoyG3gV2Z44aCxMLoBhgF9ZqLZLq9AN7ImNntnjPlR-X0HMZTsz20Pdd2vKmoOKtls2UTMxCcilpqVTL1tj4z7AmEJhNTe4MS6k45ors; expires=Thu, 23-May-2024 12:53:59 GMT; path=/; domain=.google.com; HttpOnly
+
+Alt-Svc: 
+	h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+Transfer-Encoding: 
+	chunked
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+************************************
+* https://facebook.com - Footprint *
+************************************
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+Vary: 
+	Accept-Encoding
+
+Content-Encoding: 
+	br
+
+Set-Cookie: 
+	fr=0REdEr2Z7gSrRhkiE..BlXfnn.A-.AAA.0.0.BlXfnn.AWVsoxFHoG4; expires=Tue, 20-Feb-2024 12:53:59 GMT; Max-Age=7776000; path=/; domain=.facebook.com; secure; httponly, sb=5_ldZQ5-_d0IMdw1yj43nHOr; expires=Thu, 26-Dec-2024 12:53:59 GMT; Max-Age=34560000; path=/; domain=.facebook.com; secure; httponly
+
+reporting-endpoints: 
+	default="https://www.facebook.com/ajax/browser_error_reports/?device_level=unknown"
+
+report-to: 
+	{"max_age":259200,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown"}]}, {"max_age":3600,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown"}],"group":"network-errors"}
+
+content-security-policy: 
+	default-src data: blob: 'self' https://*.fbsbx.com 'unsafe-inline' *.facebook.com *.fbcdn.net 'unsafe-eval';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.google.com 127.0.0.1:* 'unsafe-inline' blob: data: 'self' connect.facebook.net 'unsafe-eval';style-src fonts.googleapis.com *.fbcdn.net data: *.facebook.com 'unsafe-inline';connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' http://localhost:3103 wss://gateway.facebook.com wss://edge-chat.facebook.com wss://snaptu-d.facebook.com wss://kaios-d.facebook.com/ v.whatsapp.net *.fbsbx.com *.fb.com;font-src data: *.gstatic.com *.facebook.com *.fbcdn.net *.fbsbx.com;img-src *.fbcdn.net *.facebook.com data: https://*.fbsbx.com *.tenor.co media.tenor.com facebook.com *.cdninstagram.com fbsbx.com fbcdn.net *.giphy.com connect.facebook.net *.carriersignal.info blob: android-webview-video-poster: googleads.g.doubleclick.net www.googleadservices.com *.whatsapp.net *.fb.com *.oculuscdn.com;media-src *.cdninstagram.com blob: *.fbcdn.net *.fbsbx.com www.facebook.com *.facebook.com https://*.giphy.com data:;frame-src *.doubleclick.net *.google.com *.facebook.com www.googleadservices.com *.fbsbx.com fbsbx.com data: www.instagram.com *.fbcdn.net https://paywithmybank.com https://sandbox.paywithmybank.com;worker-src blob: *.facebook.com data:;block-all-mixed-content;upgrade-insecure-requests;
+
+document-policy: 
+	force-load-at-top
+
+permissions-policy: 
+	accelerometer=(), ambient-light-sensor=(), bluetooth=(), camera=(self), geolocation=(self), gyroscope=(), hid=(), idle-detection=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), payment=(), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), window-management=()
+
+cross-origin-resource-policy: 
+	cross-origin
+
+nel: 
+	{"report_to":"network-errors","max_age":3600,"failure_fraction":0.01}
+
+cross-origin-opener-policy: 
+	unsafe-none
+
+Pragma: 
+	no-cache
+
+Cache-Control: 
+	private, no-cache, no-store, must-revalidate
+
+Expires: 
+	Sat, 01 Jan 2000 00:00:00 GMT
+
+X-Content-Type-Options: 
+	nosniff
+
+X-XSS-Protection: 
+	0
+
+X-Frame-Options: 
+	DENY
+
+Strict-Transport-Security: 
+	max-age=15552000; preload
+
+Content-Type: 
+	text/html; charset="utf-8"
+
+X-FB-Debug: 
+	G47GkP0sWqW84lDP1L6e6nkxVueneRpyYBxKgamHWkuDxI+oZCTXeDkJb753H/Su33kllvF2UbLNcj9e4/BXuA==
+
+Date: 
+	Wed, 22 Nov 2023 12:53:59 GMT
+
+Alt-Svc: 
+	h3=":443"; ma=86400
+
+Transfer-Encoding: 
+	chunked
+
+Connection: 
+	keep-alive
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+***********************************
+* https://twitter.com - Footprint *
+***********************************
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+date: 
+	Wed, 22 Nov 2023 12:54:00 GMT
+
+perf: 
+	7626143928
+
+expiry: 
+	Tue, 31 Mar 1981 05:00:00 GMT
+
+pragma: 
+	no-cache
+
+server: 
+	tsa_d
+
+set-cookie: 
+	guest_id_marketing=v1%3A170065764000865010; Max-Age=63072000; Expires=Fri, 21 Nov 2025 12:54:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None, guest_id_ads=v1%3A170065764000865010; Max-Age=63072000; Expires=Fri, 21 Nov 2025 12:54:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None, personalization_id="v1_gLpTPfmWmMvrG0sGyKLKUA=="; Max-Age=63072000; Expires=Fri, 21 Nov 2025 12:54:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None, guest_id=v1%3A170065764000865010; Max-Age=63072000; Expires=Fri, 21 Nov 2025 12:54:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None, ct0=; Max-Age=-1700657639; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=Lax
+
+content-type: 
+	text/html; charset=utf-8
+
+x-powered-by: 
+	Express
+
+cache-control: 
+	no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+
+last-modified: 
+	Wed, 22 Nov 2023 12:54:00 GMT
+
+x-frame-options: 
+	DENY
+
+x-transaction-id: 
+	e49aa487462904bf
+
+x-xss-protection: 
+	0
+
+x-content-type-options: 
+	nosniff
+
+content-security-policy: 
+	connect-src 'self' blob: https://api.x.ai https://*.pscp.tv https://*.video.pscp.tv https://*.twimg.com https://api.twitter.com https://api-stream.twitter.com https://ads-api.twitter.com https://aa.twitter.com https://caps.twitter.com https://pay.twitter.com https://sentry.io https://ton.twitter.com https://ton-staging.atla.twitter.com https://ton-staging.pdxa.twitter.com https://twitter.com https://upload.twitter.com https://www.google-analytics.com https://accounts.google.com/gsi/status https://accounts.google.com/gsi/log https://checkoutshopper-live.adyen.com wss://*.pscp.tv https://vmap.snappytv.com https://vmapstage.snappytv.com https://vmaprel.snappytv.com https://vmap.grabyo.com https://dhdsnappytv-vh.akamaihd.net https://pdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://dwo3ckksxlb0v.cloudfront.net https://media.riffsy.com https://*.giphy.com https://media.tenor.com https://c.tenor.com https://ads-twitter.com https://analytics.twitter.com ; default-src 'self'; form-action 'self' https://twitter.com https://*.twitter.com; font-src 'self' https://*.twimg.com; frame-src 'self' https://twitter.com https://mobile.twitter.com https://pay.twitter.com https://cards-frame.twitter.com https://accounts.google.com/ https://client-api.arkoselabs.com/ https://iframe.arkoselabs.com/ https://vaultjs.apideck.com/  https://recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; img-src 'self' blob: data: https://*.cdn.twitter.com https://ton.twitter.com https://*.twimg.com https://analytics.twitter.com https://cm.g.doubleclick.net https://www.google-analytics.com https://maps.googleapis.com https://www.periscope.tv https://www.pscp.tv https://ads-twitter.com https://ads-api.twitter.com https://media.riffsy.com https://*.giphy.com https://media.tenor.com https://c.tenor.com https://*.pscp.tv https://*.periscope.tv https://prod-periscope-profile.s3-us-west-2.amazonaws.com https://platform-lookaside.fbsbx.com https://scontent.xx.fbcdn.net https://scontent-sea1-1.xx.fbcdn.net https://*.googleusercontent.com https://t.co/1/i/adsct; manifest-src 'self'; media-src 'self' blob: https://twitter.com https://*.twimg.com https://*.vine.co https://*.pscp.tv https://*.video.pscp.tv https://dhdsnappytv-vh.akamaihd.net https://pdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://dwo3ckksxlb0v.cloudfront.net; object-src 'none'; script-src 'self' 'unsafe-inline' https://*.twimg.com https://recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://client-api.arkoselabs.com/ https://www.google-analytics.com https://twitter.com https://accounts.google.com/gsi/client https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js https://static.ads-twitter.com  'nonce-NjhkMDdhZjMtNTUwNi00OGYxLWE1NjEtY2YxZmE0MmUxNjQ0'; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style https://*.twimg.com; worker-src 'self' blob:; report-uri https://twitter.com/i/csp_report?a=O5RXE%3D%3D%3D&ro=false
+
+strict-transport-security: 
+	max-age=631138519
+
+cross-origin-opener-policy: 
+	same-origin-allow-popups
+
+cross-origin-embedder-policy: 
+	unsafe-none
+
+content-encoding: 
+	gzip
+
+x-response-time: 
+	137
+
+x-connection-hash: 
+	bc72b27ddc471fedbaa3f27800be4fe380e01097cec86b67512ffc818039e475
+
+transfer-encoding: 
+	chunked
+
+-------------------------------------------------------------------------------------------------------
+
+
