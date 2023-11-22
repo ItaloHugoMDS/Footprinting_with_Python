@@ -7,9 +7,9 @@ import validators
 def fetch_headers(given_url):
     """Fetching the headers from the given URL(s)"""
 
-    headers_dict = {}
+    headers_dict = {}   # The dictionary will store the URL(s) and the header(s) retrieved by the request.
 
-    if os.path.isfile(given_url):
+    if os.path.isfile(given_url):   # Checking if the passed argument is a file:
 
         urls = []
 
@@ -31,10 +31,11 @@ def fetch_headers(given_url):
 
             if page.status_code != 200:
                 page.raise_for_status()
+                exit(4)
 
             headers_dict[url] = page.headers
 
-    else:
+    else:   # If the passed argument is not a file, it means it's just a single URL:
 
         if not validators.url(given_url):
             print(f"{given_url} is an invalid url to be used.\n\n")
