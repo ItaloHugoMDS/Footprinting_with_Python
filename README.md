@@ -75,7 +75,28 @@ The output will look similar to this:
 
 ## Showcase  
 
-For this showcase, a **Docker** container running a version of **WebGoat** was started to be footprinted 
+For this showcase, a **Docker** container running a version of **WebGoat** was started to be footprinted by the tool.
+To further understanding of how to run the application check out [WebGoat GitHub][link2].  
+
+Running web application:  
+
+> [![Running WebGoat](images/OWASP_WebGoat_Terminal_Execution.png "Application running on terminal")][image4]  
+
+> [![Browser Application Login Page](images/OWASP_WebGoat_Login_Page.png "Browser Application Login Page")][image5]  
+
+> [![Browser Application Entry Page](images/OWASP_WebGoat_Running_Page.png "Browser Application Entry Page")][image6]  
+
+A specific endpoint from the application was footprinted by the tool.  
+
+The application's endpoint:  
+
+> [![Application's Endpoint](images/Web_Application_Page.png "Application's Endpoint")][image7]  
+
+The footprint done by the tool:  
+
+> [![Application's footprint](images/Web_Application_Footprint.png "Application's Footprint")][image8]  
+
+The result returned by the tool only had little information. But the footprint was successfully executed.  
 
 [link1]: https://github.com/ItaloHugoMDS/Footprinting_with_Python "Footprinting tool"
 [link2]: https://github.com/WebGoat/WebGoat "WebGoat"
@@ -89,3 +110,8 @@ For this showcase, a **Docker** container running a version of **WebGoat** was s
 [image1]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/Footprinting_File_1.png
 [image2]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/Footprinting_File_2.png
 [image3]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/Footprinting_File_3.png
+[image4]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/OWASP_WebGoat_Terminal_Execution.png
+[image5]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/OWASP_WebGoat_Login_Page.png
+[image6]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/OWASP_WebGoat_Running_Page.png
+[image7]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/Web_Application_Page.png
+[image8]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/images/Web_Application_Footprint.png
