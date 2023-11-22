@@ -102,7 +102,7 @@ The result returned by the tool only had little information. But the footprint w
 [link2]: https://github.com/WebGoat/WebGoat "WebGoat"
 [link3]: https://www.docker.com/ "Docker"
 [link4]: https://www.coursera.org/projects/write-your-own-python-tool-to-footprint-a-web-application "Project source"
-[link5]: https://github.com/ItaloHugoMDS/Footprinting_with_Python#syntax "Tool's functionality"
+[link5]: https://github.com/ItaloHugoMDS/Footprinting_with_Python#how-to-use-the-tool "Tool's functionality"
 [link6]: https://github.com/ItaloHugoMDS/Footprinting_with_Python#showcase "Skill showcase"
 [code]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/footprint "Source code"
 [pycode]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/footprint.py "Souce '.py' code"
