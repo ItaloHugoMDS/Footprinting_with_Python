@@ -10,7 +10,9 @@ within a **Docker** container. The image used was a [OWASP WebGoat][link2] conta
 The concept for this project was based on the [Coursera Guided Project][link4]. Although, the source code present here
 was created, debugged, and tested by the owner of this repository.  
 
-For the tool's functionality, you can go click here: [Tool][link5]
+#### For the tool's functionality, you can click here: [Tool][link5]  
+
+#### For the skill showcase, you can click here: [Showcase][link6]  
 
 ---  
 
@@ -79,7 +81,8 @@ For this showcase, a **Docker** container running a version of **WebGoat** was s
 [link2]: https://github.com/WebGoat/WebGoat "WebGoat"
 [link3]: https://www.docker.com/ "Docker"
 [link4]: https://www.coursera.org/projects/write-your-own-python-tool-to-footprint-a-web-application "Project source"
-[link5]: 
+[link5]: https://github.com/ItaloHugoMDS/Footprinting_with_Python#syntax "Tool's functionality"
+[link6]: https://github.com/ItaloHugoMDS/Footprinting_with_Python#showcase "Skill showcase"
 [code]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/footprint "Source code"
 [pycode]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/footprint.py "Souce '.py' code"
 [file]: https://github.com/ItaloHugoMDS/Footprinting_with_Python/blob/main/recon.txt "File example"
