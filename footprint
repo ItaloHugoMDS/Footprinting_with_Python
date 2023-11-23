@@ -11,7 +11,7 @@ def url_eval(url):
 
     if not validators.url(url):  # Evaluating if it's a valid URL.
         print(f"{url} is an invalid url to be used.\n\n")  # Print an error message in case invalid URL.
-        exit(3)  # End the program with status code 3.
+        exit(2)  # End the program with status code 3.
 
     try:
 
@@ -20,12 +20,12 @@ def url_eval(url):
     except requests.RequestException:  # In case of any request exceptions:
 
         print(f"Error: Bad URL request for {url}")  # Printing a message for a Bad Request Error.
-        exit(4)  # Ending the program with status code 4.
+        exit(3)  # Ending the program with status code 4.
 
     if page.status_code != 200:  # Evaluating if the request was successful if the request code is different
         # then 200 (Code for successful request):
         page.raise_for_status()  # Printing an error message with the returned status code.
-        exit(5)  # Ending the program execution with status code 5.
+        exit(4)  # Ending the program execution with status code 5.
 
     return page
 
@@ -92,13 +92,9 @@ def main():
     msg = "Please enter use the file path containing the urls\n"\
           "or enter the a simple url."
 
-    if not sys.argv[1]:    # Checking if one argument was provided when running the script from the terminal.
-        print(f"Invalid arguments\n\n{msg}")    # Printing an error message in case missing argument.
-        exit(1)    # Ending program's execution with status code 1.
-
-    if len(sys.argv) > 2:   # Checking if more than one argument was used.
-        print(f"Too many arguments!\n\n{msg}")  # Printing an error message in case too many arguments.
-        exit(2)    # Ending program's execution with status code 2.
+    if len(sys.argv) != 2:   # Checking if more than one argument was used.
+        print(f"Invalid arguments!\n\n{msg}")  # Printing an error message in case of argument errors.
+        exit(1)    # Ending program's execution with status code 2.
 
     headers = fetch_headers(sys.argv[1])    # Retrieving the header(s) for the URL(s).
 
